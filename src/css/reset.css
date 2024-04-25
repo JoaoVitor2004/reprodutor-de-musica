@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+audio {
+    margin-bottom: 30px;
+    background: none;
+    max-width: 100%;
+}
+
+button {
+    background: none;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+    font-size: 30px;
+    color: #fff;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
